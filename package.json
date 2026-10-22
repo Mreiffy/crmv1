@@ -29,11 +29,19 @@
 	"devEngines": {
 		"packageManager": {
 			"name": "bun",
-			"version": "1.3.12"
+			"version": "1.4.3"
 		}
 	},
 	"workspaces": [
 		"apps/*",
 		"packages/*"
-	]
+	],
+	"overrides": {
+		"lodash": "^4.18.1",
+		"multer": "^2.4.0",
+		"mysql2": "^3.23.1",
+		"postcss": "^8.5.23",
+		"shell-quote": "^1.11.0",
+		"undici@8.9.0": "8.10.2"
+	}
 }
